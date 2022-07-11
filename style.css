@@ -2,54 +2,55 @@ body{
 font-family: 'Bree Serif', serif;
 font-family: 'Edu VIC WA NT Beginner', cursive;
 font-family: 'Koulen', cursive;
+font-family: 'Playfair Display', serif;
 font-family: 'Roboto Mono', monospace;
-background-image: url(./Images/pexels-rachel-claire-5531547.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-width: 100%;
-height: 100vh;
 }
 *{
-    margin:0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 .navbar{
     list-style: none;
     display: flex;
-    justify-content: right;
-    margin: 40px 40px 40px 50px;
-    
+    justify-content: right; 
+    background-color: black;
+    font-weight: 30px;
+}
+.nav{
+    margin: 40px;
 }
 .navbar a{
     text-decoration: none;
-    color: yellow;
+    color:  rgb(221, 13, 48);
+    font-size: 20px;
+}
+.header-1{
+    color: white;
+    padding: 150px;
     font-size: 25px;
 }
-.nav-1{
-    margin-right: 40px;
-}
-.nav-2{
-    margin-right: 40px;
-}
-.nav-3{
-    margin-right: 40px;
-}
-.nav-4{
-    margin-right: 60px;
+.link-btn{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    background-color:rgb(221, 13, 48);
+    padding: 20px;
+    border-radius: 20px;   
 }
 .header{
-    margin-left: 20px;
-    text-align: center;
-    margin-top: 150px;
-    font-size: 20px;
-    color: darkorange;
+    background-image: url(./Images/Rectangle\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 80vh;
 }
-.link-btn{
-    display: inline-block;
-    margin-top: 40px;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(135, 31, 233);
-    border-radius: 20px;
-    padding: 20px 35px;
+section{
+    display: flex;
+}
+.half-width{
+    margin-top: 100px;
+    width: 50%;
+    padding: 60px;
+    font-size: 25px;
 }
