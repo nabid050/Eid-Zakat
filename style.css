@@ -61,14 +61,36 @@ section{
     font-size: 22px;
 }
 .sm-blg{
-    text-align: center;
+    text-align: left;
     padding: 70px;
-    border: 4px solid gray;
     margin: 60px 40px;
     border-radius: 15px;
-    box-shadow:  8px 8px 8px 8px gray;
+    background-color: rgb(227, 236, 233);
 }
-.dropdown{
-    display: block;
+.img{
+    margin: 50px;
+    padding-right: 20px;
+}
+.pre-footer{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.dtn-box{
+    text-align: justify;
+    margin: 50px;
+    padding-right: 20px;
+}
+.link-btn-2{
+    display: inline-block;
     color: rgb(221, 13, 48);
+    text-decoration: none;
+    margin-top: 25px;
+}
+footer{
+    text-align: center;
+    color: rgb(221, 13, 48);
+    background-color: black;
+    margin-top: 50px;
+    padding: 50px;
 }
