@@ -83,9 +83,12 @@ section{
 }
 .link-btn-2{
     display: inline-block;
-    color: rgb(221, 13, 48);
+    color: white;
     text-decoration: none;
     margin-top: 25px;
+    background-color: rgb(221, 13, 48);
+    padding: 15px;
+    border-radius: 15px;
 }
 footer{
     text-align: center;
@@ -93,4 +96,5 @@ footer{
     background-color: black;
     margin-top: 50px;
     padding: 50px;
+    
 }
